@@ -5,7 +5,11 @@
 * 웹 페이지에서 FEATURE를 추출하고, 이를 바탕으로 악성사이트 여부를 판별하는 성능 좋은 AI 모델을 생성해야 합니다.
 
 ## 프로젝트 결과
-
+![result](https://user-images.githubusercontent.com/89781598/189193337-bbb43766-7221-4daa-af4c-3eb80bcd83be.png)
+- AIVLE SCHOOL 2기 AI과정 169명중 1등
+<p align="center">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/></a>&nbsp
+</p>
 
 ## 프로젝트 설명
 ![슬라이드1](https://user-images.githubusercontent.com/89781598/189177745-1398606b-21fc-45e7-a9e5-48873aff5a6e.JPG)
