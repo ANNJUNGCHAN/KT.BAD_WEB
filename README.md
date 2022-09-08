@@ -8,11 +8,17 @@
 ![result](https://user-images.githubusercontent.com/89781598/189193337-bbb43766-7221-4daa-af4c-3eb80bcd83be.png)
 - AIVLE SCHOOL 2기 AI과정 169명중 1등
 <p align="center">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/></a>&nbsp
+  <a href="https://www.kaggle.com/competitions/aivle-school-2nd-miniproject-competition/leaderboard"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/competitions/aivle-school-2nd-miniproject-competition/leaderboard"/></a>&nbsp
 </p>
 
 ## 프로젝트 설명
-![슬라이드1](https://user-images.githubusercontent.com/89781598/189177745-1398606b-21fc-45e7-a9e5-48873aff5a6e.JPG)
+<h3 align="center">🪄 프로젝트에 대한 설명은 아래의 네이버 블로그를 참고해주세요! 🪄</h3>
+
+- [1편] 프로젝트 소개 : https://blog.naver.com/j227ung/222868866219
+- [2편] EDA : https://blog.naver.com/j227ung/222868890634
+- [3편] Config to Select, 통계 기법을 제어하다. : https://blog.naver.com/j227ung/222868893036
+- [4편] 베이지안 옵티마이제이션(Bayesian Optimization) : https://blog.naver.com/j227ung/222869791893
+- [5편] SUBMIT : https://blog.naver.com/j227ung/222870620816
 
 
 ## 패키지 사용
@@ -22,11 +28,8 @@
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/></a>&nbsp
   <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=SciPy&logoColor=white"/></a>&nbsp
   <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/></a>&nbsp
-  <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=JSON&logoColor=white"/></a>&nbsp
   <br>
     <img src="https://img.shields.io/badge/-statsmodel-green"/></a>&nbsp
-    <img src="https://img.shields.io/badge/%20-request-black"/></a>&nbsp
-    <img src="https://img.shields.io/badge/-math-black"/></a>&nbsp
     <img src="https://img.shields.io/badge/-itertools-black"/></a>&nbsp
     <img src="https://img.shields.io/badge/-catboost-yellow"/></a>&nbsp
     <img src="https://img.shields.io/badge/-byes_opt-blueviolet"/></a>&nbsp
@@ -35,28 +38,37 @@
 
 ## 파일 구조
 ```
-📦KT.CHUSOK
- ┣ 📂데이터와 결과
- ┃ ┣ 📜data.csv
- ┃ ┣ 📜result.csv
- ┃ ┗ 📜target.csv
- ┣ 📂분석설명서
- ┃ ┣ 📜AI 부산경남 8반 안중찬_분석설명서.pdf
- ┃ ┗ 📜AI 부산경남 8반 안중찬_분석설명서.pptx
- ┗ 📜AI 부산경남 8반 안중찬_분석데이터 결과.ipynb
+📦KT.BAD_WEB
+ ┣ 📂CSV
+ ┃ ┣ 📜cat_esb_best2.csv
+ ┃ ┣ 📜CONFIG_RESULT.csv
+ ┃ ┗ 📜logistic_result.csv
+ ┣ 📂PT
+ ┃ ┣ 📜부산경남_안중찬.pdf
+ ┃ ┗ 📜부산경남_안중찬.pptx
+ ┣ 📜01.EDA.ipynb
+ ┣ 📜02.CONFIG.ipynb
+ ┣ 📜03.Bayesian-Optimization.ipynb
+ ┗ 📜04.SUBMIT.ipynb
 ```
 
 ## 파일 설명
-- AI 부산경남 8반 안중찬_분석데이터 결과.ipynb
-    - 프로젝트에 이용한 파이썬 코드들이 담겨있습니다.
-- AI 부산경남 8반 안중찬_분석설명서.pdf,pptx
-    - 분석과 관련된 내용을 담고있습니다. pdf, pptx 2개의 버전이 존재합니다.
-- data.csv
-    - 분석에 사용된 데이터입니다.(2020년~2022년 설날,추석 교통 소요시간(1시간단위, 연휴 전후 3일)
-- target.csv
-    - 예측에 사용된 데이터입니다.(2022년 추석전일 0시~23시)
-- result.csv
-    - 예측 결과입니다.
+- EDA.ipynb
+    - EDA에 관련된 코드들이 담겨져있습니다.
+- CONFIG.ipynb
+    - CONFIG To Select에 대한 코드가 담겨져있습니다.(자세한 내용은 위의 불로그 참조)
+- Bayesian-Optimization.ipynb
+    - Bayesian-Optimization으로 하이퍼 파라미터 튜닝을 한 코드들이 담겨져 있습니다.
+- SUBMIT.ipynb
+    - 최종 제출된 모델의 코드가 담겨져 있습니다.
+- 부산경남_안중찬.pdf,pptx
+    - 모델에 대한 설명이 담겨져 있습니다. AIVLE SCHOOL에서 프레젠테이션을 진행하였습니다.
+- cat_esb_best2.csv
+    - 성능이 가장 좋은 모델이 예측한 값입니다.
+- CONFIG_RESULT.csv
+    - Config to Select의 결과입니다.
+- logistic_result.csv
+    - logistic 검정의 결과입니다.
 
 ## 문의사항
 * email : ajc227ung@gmail.com
